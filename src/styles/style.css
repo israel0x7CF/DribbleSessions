@@ -1,7 +1,27 @@
 .image{
-    perspective-origin: 0% 50%;
-    transform: translate(0px, 0px);
-    transform-origin: 0% 50%;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) 
+    scale3d(1, 1, 1) 
+    rotateX(0deg) 
+    rotateY(0deg) 
+    rotateZ(0deg) 
+    skew(0deg, 0deg);
+    transform-style: preserve-3d;
+
     width: 60vh;
     height: 50vh;
+}
+
+.banner{
+    background-color: #5723ec;    
+    color: #FFFFFF;
+    padding: 5px;
+
+}
+.container{
+    margin: 10pc 0 0 0;
+}
+.heighlight{
+    background-color:  #f2e16e ;
+    border: 100px 20px 30px 40px;
 }
